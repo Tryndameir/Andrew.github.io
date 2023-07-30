@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.body {
+    flex: 1;
+    display: flex;
+    background-color: burlywood;
+}
+
+.container {
+    display: flex; 
+    flex: 1;
+    flex-wrap: wrap;
+    /*max-width: 832px;*/
+    /*min-width: 832px;*/
+    align-self: center;
+    justify-content: center;
+    margin-top: 35px;
+    margin-bottom: 50px;
+    width: 832px;
+    height: 832px;
+    position: relative;
+    background-color: white;
+    
+}
+
+.button {
+    align-self: center;
+    justify-self: center;
+    margin-top: 20px;
+}
+
+
+/* .box:hover {
+    background-color: red;
+} */
+
